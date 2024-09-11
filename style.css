@@ -18,6 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: black;
 }
 header{
     height: 200px;
@@ -29,12 +30,15 @@ header{
 .logo{
     height: 96px;
     width: 96px;
-    background-color: lightgrey;
+    background-image: url(./img/10994411-nike-logotipo-design-de-roupas-brancas-icone-abstrato-futebol-ilustracaoial-com-fundo-preto-gratis-vetor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .menu ul{
     display: flex;
     gap: 32px;
     font-size: 32px;
+    color: white;
 }
 .conteudo{
     width: 50%;
@@ -44,16 +48,18 @@ header{
 }
 .conteudo h1{
     font-size: 96px;
+    color: white;
 }
 .conteudo p{
     width: 48%;
     font-size: 32px;
+    color: white;
 }
 .acao button{
     height: 80px;
     width: 300px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 32px;
 }
 .social{
@@ -66,10 +72,15 @@ header{
     width: 96px;
     background-color: lightgray;
     border-radius: 50%;
+    background-image: url(./img/p.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .destaque{
     width: 50%;
-    background-color: gray;
+    background-image: url(./img/tlddd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 main{
     flex-grow: 1;
